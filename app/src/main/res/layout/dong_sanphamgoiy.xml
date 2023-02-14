@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hinhanh"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="@drawable/food"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-15dp"
+            android:scaleX="1"
+            android:src="@drawable/promo" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:padding="6dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="PC 2021 Asus"
+        android:id="@+id/txttensp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="-90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtgiatien"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="-15dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:text="255.555 Đ"
+        android:textColor="#EC0453"
+        android:textSize="16sp" />
+    <ImageView
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-25dp"
+        app:tint="#FF9800"
+        android:src="@drawable/rating"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

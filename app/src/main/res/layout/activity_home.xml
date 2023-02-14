@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            style="@style/ThemeOverlay.AppCompat.Dark"
+            android:background="@color/purple_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:hint="Mời bạn nhập món"
+                android:textColor="#000000"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:id="@+id/editSearch"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.Toolbar>
+         <FrameLayout
+             android:id="@+id/framelayout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="330dp"
+        app:itemTextColor="#ff0000"
+        app:itemIconTint="#ff0000"
+        app:menu="@menu/menu_dashboard"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/app_bar_main_screen"
+        android:id="@+id/navigationview"
+        android:layout_height="match_parent"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

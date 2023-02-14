@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+      <item android:title="Dash Board">
+          <menu>
+              <item
+
+                  android:id="@+id/home"
+                  android:icon="@drawable/ic_baseline_home_24"
+                  android:title=" Trang Chủ"/>
+              <item
+                  android:id="@+id/danhmuc"
+                  android:icon="@drawable/ic_baseline_menu_24"
+                  android:title="Danh Mục"/>
+              <item
+                  android:id="@+id/your_cart"
+                  android:icon="@drawable/ic_shopping_cart_black_24dp"
+                  android:title="Giỏ Hàng"/>
+              <item
+                  android:id="@+id/your_bill"
+                  android:icon="@drawable/bill"
+                  android:title="Đơn hàng của bạn"/>
+              <item
+                  android:id="@+id/your_profile"
+                  android:icon="@drawable/profile"
+                  android:title="Thông Tin Cá Nhân"/>
+
+
+              <item
+                  android:id="@+id/ketnoi"
+                  android:icon="@drawable/ic_language_black_24dp"
+                  android:title="Kết Nối Mạng Xã Hội"/>
+
+
+              <item
+                  android:id="@+id/signout"
+                  android:icon="@drawable/ic_baseline_logout_24"
+                  android:title="Đăng Xuất"/>
+          </menu>
+      </item>
+    </group>
+    <group>
+        <item android:title="Other">
+            <menu>
+
+                <item
+                    android:id="@+id/lienhe"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Liên Hệ"
+                    />
+                <item
+                    android:id="@+id/thongtinungdung"
+                    android:icon="@drawable/ic_info_outline_black_24dp"
+                    android:title="Thông Tin Ứng dụng"/>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

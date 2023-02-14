@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    android:orientation="vertical"
+    tools:context=".ThongtinungdungFragment">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="152dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Người sản xuất: "
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="-10dp"
+        android:text=" Nguyễn Thanh Tú"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Thành viên nhóm:"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="7dp"
+        android:text="   1. Nguyễn Thanh Tú:"
+        android:textColor="@color/colorBlack"
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="7dp"
+
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        tools:text="CNTT K14 - MSSV : TH20CN2124" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Chân thành cảm ơn: "
+        android:textColor="#ff0000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="-10dp"
+        android:text="   TS. Nguyễn Vũ Lâm"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="   GV. Trường Cao Đẳng Kiên Giang đã hướng dẫn em hoàn thành dự án này."
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Chân thành cảm ơn:"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="Gửi lời cảm ơn đến anh chị CBHD thực tập tại VNPT chi nhánh Kiên Giang đã tận tình và hỗ trợ em suốt thời gian thực tập vừa qua."
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Thông tin tác giả"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="Nguyễn Thanh Tú, 03/01/2002"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back7">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <androidx.cardview.widget.CardView
+
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/border8"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                android:background="@android:color/background_light"
+
+                android:layout_height="65dp">
+
+                <EditText
+                    android:singleLine="true"
+                    android:drawableRight="@drawable/ic_baseline_email_24"
+                    android:background="@android:color/background_light"
+
+                    android:hint="Nhập Email"
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                app:passwordToggleEnabled="true"
+                android:background="@android:color/background_light"
+
+                android:layout_height="65dp">
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:drawableRight="@drawable/ic_baseline_email_24"
+                    android:background="@android:color/background_light"
+
+                    android:hint="Nhập Mật Khẩu"
+                    android:id="@+id/editmatkhau"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                app:passwordToggleEnabled="true"
+                android:background="@android:color/background_light"
+
+                android:layout_height="65dp">
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:drawableRight="@drawable/ic_baseline_email_24"
+                    android:background="@android:color/background_light"
+
+                    android:hint="Nhập Lại Mật Khẩu"
+                    android:id="@+id/editmatkhau_repeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_marginBottom="8dp"
+                android:elevation="8dp"
+                android:id="@+id/btndangky"
+                android:text="Đăng Ký"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#E49116"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Bạn đã có tài khoản ? Đăng Nhập"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

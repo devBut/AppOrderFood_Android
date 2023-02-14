@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hinhanh"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="-1dp"
+            android:scaleX="1"
+            android:src="@drawable/iconpromo" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:padding="1dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="PC 2021 Asus"
+        android:id="@+id/txttensp"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="#EC0453"
+        android:textSize="16sp"
+        android:text="255.555 Đ"
+        android:layout_marginTop="-10dp"
+        android:id="@+id/txtgiatien"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-28dp"
+        android:src="@drawable/rating"
+        app:tint="#FF9800" />
+
+</LinearLayout>
